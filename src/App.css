@@ -1,0 +1,17 @@
+:root {
+    scroll-behavior: smooth;
+    --body_background: white;
+    --body_color: #1D1432;
+    --nav_hover: #0e0505;
+}
+
+[data-theme="dark"] {
+    --body_background: #1D1432;
+    --body_color: white;
+    --nav_hover: #e0e1e4;
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+    color: var(--body_color);
+}
